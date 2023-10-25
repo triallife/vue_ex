@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/conditional">조건부 렌더링</RouterLink>
         <RouterLink to="/list">리스트 렌더링</RouterLink>
         <RouterLink to="/event">이벤트 핸들링</RouterLink>
+        <RouterLink to="/form">폼 입력 바인딩</RouterLink>
       </nav>
       <HelloWorld msg="let's study" msg2=" Vue.js"/>
     </div>
