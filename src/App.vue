@@ -20,6 +20,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/form">폼 입력 바인딩</RouterLink>
         <RouterLink to="/life">생명주기</RouterLink>
         <RouterLink to="/watchers">감시자</RouterLink>
+        <RouterLink to="/refs">템플릿 참조</RouterLink>
+        <RouterLink to="/comp">컴포넌트</RouterLink>
       </nav>
       <HelloWorld msg="let's study" msg2=" Vue.js"/>
     </div>

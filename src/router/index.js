@@ -59,6 +59,16 @@ const router = createRouter({
       name: 'watchers',
       component: () => import('../views/WatchersView.vue')
     },
+    {
+      path: '/refs',
+      name: 'refs',
+      component: () => import('../views/RefsView.vue')
+    },
+    {
+      path: '/comp',
+      name: 'comp',
+      component: () => import('../views/CompView.vue')
+    },
   ]
 })
 
